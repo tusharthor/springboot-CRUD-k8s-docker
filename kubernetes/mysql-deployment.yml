@@ -15,7 +15,6 @@ spec:
     tier: database
   clusterIP: None  # We Use DNS, Thus ClusterIP is not relevant
 ---
-# Define a 'Persistent Volume Claim'(PVC) for Mysql Storage, dynamically provisioned by cluster
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
