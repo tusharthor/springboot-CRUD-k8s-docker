@@ -6,7 +6,7 @@ metadata:
     name: students-app
 spec:
   ports:
-    - nodePort: 30163
+    - nodePort: 30162
       port: 8080
       targetPort: 8080
       protocol: TCP
